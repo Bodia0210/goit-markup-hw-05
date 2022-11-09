@@ -582,7 +582,7 @@ width: 20px;
       1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.item-filtr:hover .description,
+.item-filtr:hover .description, 
 .item-filtr:focus .description {
   opacity: 1;
   transform: translateY(0);
@@ -607,7 +607,8 @@ width: 20px;
   transform: translateY(+150%);
 }
 
-.description-efect:hover::before {
+.item-filtr:hover .description-efect::before,
+.item-filtr:focus .description-efect::before {
   opacity: 1;
   transform: translateY(0);
   }
