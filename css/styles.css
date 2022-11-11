@@ -169,7 +169,7 @@ color: #2196f3;
 
 .hero {
   text-align: center;
-  border: 1px solid #ECECEC
+  border: 1px solid #ECECEC;
   text-align: center;
   background-color: #2f303a;
 }
@@ -247,13 +247,28 @@ color: #2196f3;
 }
 
 .close-button {
+  display: inline-block;
   position: absolute;
-  border-radius: 50%;
+  align-items: center;
+  fill: currentColor;
   width: 32px;
   height: 32px;
-  top: 0;
-  right: 0;
-}
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  top: 8px;
+  right: 8px;
+  }
+
+  .icone-close {
+    display: flex;
+    flex-wrap: wrap;
+    width: 18px;
+    height: 18px;
+    
+  }
 
 
 /* fetures */
